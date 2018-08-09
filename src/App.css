@@ -411,9 +411,7 @@ img{
     font-size: 30px;
 
 }
-html{
-    background-color: darkgrey;
-}
+
 
 div .container-fluid{
     background-color: black;
@@ -429,7 +427,7 @@ div.color{
     background-color: rosybrown;
 }
 .bottom-header{
-    background-color:darkgray;
+    background-color:white;
 
 }
 /*login form*/
@@ -476,6 +474,7 @@ img{
     background:rgb(34,43,45,0.5);
     padding-left:20px;
     padding-bottom:20px;
+
 
 
 }
