@@ -7,7 +7,7 @@ export default class Sets extends Component{
        render(){
         return(
                <div className="here">
-                   <section className="grid default-grid">
+                   <section className="grid default-grid ">
                        <div className="container">
                            <div className="row sample-row">
                                <div className="col-xs-6 col-sm-4 gutter-margin-xs-md">
@@ -15,8 +15,12 @@ export default class Sets extends Component{
 
 
                                        <button type="button" className="btn btn-success">Set1</button></a>
+
                                    </div>
+
                                </div>
+                               <br/>
+                               <br/>
                                <div className="col-xs-6 col-sm-8 gutter-margin-xs-md">
                                    <div className="inner"><a href="#Exammode/Set2">
                                        <button type="button" className="btn btn-success">Set2</button></a>
@@ -26,6 +30,7 @@ export default class Sets extends Component{
 
                        </div>
                    </section>
+
                    <section className="grid default-grid">
                        <div className="container">
                            <div className="row sample-row">
@@ -34,6 +39,7 @@ export default class Sets extends Component{
                                        <button type="button" className="btn btn-success">Set3</button>
                                    </div>
                                </div>
+
 
                                <div className="col-xs-6 col-sm-8 gutter-margin-xs-md">
                                    <div className="inner" href="#Set4">

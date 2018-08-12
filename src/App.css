@@ -212,8 +212,9 @@ a.navbar-brand{
 
 /*}*/
 
-.container{
+.testmodule{
     width:100%;
+    background-color: white;
 
 }
 .text{
@@ -301,12 +302,18 @@ button{
 
 /*testmodule*/
 .here{
-    background-color:rosybrown;
+    background-color:white;
     margin-top: 61px;
     margin-left:2px;
 }
+.testhere{
+background-color: white;
+}
+.inner{
+    background-color: white;
+}
 .image{
-    background-color: rosybrown;
+    background-color: white;
     text-align: center;
     margin-top: 57px;
 
@@ -322,7 +329,7 @@ button{
 }
 .grid-default{
     height:100%;
-    background-color:rosybrown;
+    background-color:white;
 }
 .btn {
 font-size: larger;
@@ -350,8 +357,8 @@ font-size: larger;
  div .jenita ul{
      padding-left:60px;
  }
-div.container{
-    background-color: rosybrown;
+.testmodule{
+    background-color: white;
     padding-left:0px;
     padding-right:0px;
 
@@ -359,7 +366,7 @@ div.container{
 
 
 .grid default-grid{
-    background-color: rosybrown;
+    background-color: white;
 }
 img{
     width:350px;
@@ -421,10 +428,10 @@ a.navbar-brand{
 }
 
 div .SubmitValue{
-    background-color: darkgrey;
+    background-color: white;
 }
 div.color{
-    background-color: rosybrown;
+    background-color: white;
 }
 .bottom-header{
     background-color:white;
@@ -475,9 +482,8 @@ img{
     padding-left:20px;
     padding-bottom:20px;
 
-
-
 }
+
 .firstheadings h1{
     font-size: 4rem;
     font-family:var(--mainfont);
@@ -569,5 +575,6 @@ a .mainbox{
     text-decoration-color: red;
 }
 .down{
-    background-color:darkgrey;
+    background-color:grey;
+    padding-bottom: 150px;
 }

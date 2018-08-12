@@ -4,13 +4,10 @@ import ReactModalLogin from 'react-modal-login';
 
 
 export default class Login extends Component{
-
-
-
-render(){
+    render(){
         return(
-            <div className="fullcontent">
-            <div className="firstheadings">
+            <div className="fullcontent formside">
+            <div className="firstheadings formside">
 
                 <h1>AWS EXAM PORTAL</h1>
                 <h2>We provides you better way of preparation for the Aws examination.Different types of question sets are provided to make you ready for the examination.</h2>

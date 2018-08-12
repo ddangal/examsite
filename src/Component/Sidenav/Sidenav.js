@@ -23,12 +23,9 @@ export default class Sidenav extends Component {
 
     render() {
             return (
-
-
-                    <div id="mySidenav" className="sidenav">
+                <div id="mySidenav" className="sidenav">
                         <a href="#">Introduction</a>
-
-                        <div className="panel-group">
+                    <div className="panel-group">
                             <div className="panel">
                                 <div className="">
                                     <h4 className="panel-title">

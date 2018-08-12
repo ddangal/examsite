@@ -35,9 +35,14 @@ export default class Register extends Component{
                 <div className="signup ">
                     <form action="#">
                         <div className="form-group">
-                            <label htmlFor="username">Username</label>
-                            <input className="form-control" type="text" name="username" id="username"
+                            <label htmlFor="username">Firstname</label>
+                            <input className="form-control" type="text" name="firstname" id="firstname"
                                     required/>
+                        </div>
+                        <div className="form-group">
+                            <label htmlFor="username">Lastname</label>
+                            <input className="form-control" type="text" name="lastname" id="lastname"
+                                   required/>
                         </div>
                         <div className="form-group">
                             <label htmlFor="email">Email</label>

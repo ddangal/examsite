@@ -17,6 +17,8 @@ export default class Sets extends Component{
                                        <button type="button" className="btn btn-success">Set1</button></a>
                                    </div>
                                </div>
+
+
                                <div className="col-xs-6 col-sm-8 gutter-margin-xs-md">
                                    <div className="inner"><a href="#Exammode/DevOps/Set1">
                                        <button type="button" className="btn btn-success">Set2</button></a>
@@ -25,6 +27,8 @@ export default class Sets extends Component{
                            </div>
 
                        </div>
+                       <br/>
+                       <br/>
                    </section>
                    <section className="grid default-grid">
                        <div className="container">
