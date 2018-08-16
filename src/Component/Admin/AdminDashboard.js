@@ -7,7 +7,7 @@ export default class AdminDashboard extends Component{
         <div className="usertable">
                     <div className="col-md-8">
                 <div className="containertable outline">
-                    <h2 classname="user">LIST OF USERS</h2>
+                    <h2 classname="user">LIST OF ACTIVE USERS</h2>
                     <table className="table table-bordered">
                         <thead>
                         <tr>
@@ -98,10 +98,120 @@ export default class AdminDashboard extends Component{
                     <div className="filter  ">
                     <button type="filter">Filter</button><button type="filter ">Reset</button>
                     </div>
+                    <br/>
+                    <br/>
+                    <div className="filter inactive">
+                        <button type="filter">Make Inactive</button>
+                    </div>
                 </div>
                 </div>
     </div>
-                        <div className="col-md-4 userinfo">
+
+        <div className="usertablelist margin-top">
+            <div className="col-md-8">
+                <div className="containertable outline listofuser">
+                    <h2 className="user">LIST OF INACTIVE USERS</h2>
+                    <table className="table table-bordered">
+                        <thead>
+                        <tr>
+                            <th className="firstname">Firstname</th>
+                            <th className="firstname">Lastname</th>
+                            <th className="firstname">Email</th>
+                            <th className="firstname">Status</th>
+                            <th className="firstname">Action</th>
+                        </tr>
+                        </thead>
+                        <tbody className="list">
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <th></th>
+                            <a href="#">
+                                <span className="glyphicon glyphicon-ok ok "></span>
+                            </a>
+
+                            <a href="#">
+                                <span className="glyphicon glyphicon-edit edit"></span>
+                            </a>
+                            <a href="#">
+                                <span className="glyphicon glyphicon-envelope envelope"></span>
+                            </a>
+
+
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <th></th>
+                            <a href="#">
+                                <span className="glyphicon glyphicon-ok ok"></span>
+                            </a>
+                            <a href="#">
+                                <span className="glyphicon glyphicon-edit edit"></span>
+                            </a>
+                            <a href="#">
+                                <span className="glyphicon glyphicon-envelope envelope"></span>
+                            </a>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <th></th>
+                            <a href="#">
+                                <span className="glyphicon glyphicon-ok ok"></span>
+                            </a>
+
+                            <a href="#">
+                                <span className="glyphicon glyphicon-edit edit"></span>
+                            </a>
+                            <a href="#">
+                                <span className="glyphicon glyphicon-envelope envelope"></span>
+                            </a>
+                        </tr>
+
+
+                        </tbody>
+                    </table>
+                    <div className="col-xs-4 search">
+                        <h3>Search by:</h3> <label htmlFor="Email">Email:</label>
+
+
+                        <input className="form-control outline" type="text" name="Email" id="Email" maxLength="20"
+                               placeholder="Search by email"
+                               required/>
+                    </div>
+                    <br/>
+                    <label htmlFor="Status">Status:</label>
+                    <select name="Status">
+                        <option value="">Search by option...</option>
+                        <option value="active">Active</option>
+                        <hr/>
+                        <option value="pending">Pending</option>
+                        <hr/>
+                        <option value="locked">Locked</option>
+                    </select>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <div className="filter  ">
+                        <button type="filter">Filter</button>
+                        <button type="filter ">Reset</button>
+                        <br/>
+                        <br/>
+                    </div>
+                    <div className="filter inactive">
+                        <button type="filter">Make Active</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div className="col-md-4 userinfo">
                             <h2 className="user">ADD USERS</h2>
                             <br/>
                             <form action="#">

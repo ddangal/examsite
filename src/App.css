@@ -55,9 +55,7 @@
   display: block;
   transition: 0.3s;
 }
-.sidenav ul{
-    background-color: darkgray;
-}
+
 
 
 /* When you mouse over the navigation links, change their color */
@@ -92,26 +90,27 @@
 }
 .pannel-title{
     padding-bottom:0px;
+    background-color: darkgrey;
 }
 .panel-footer{
   background-color: #111111;
+
 }
 a.panel-body.dropdown-toggle{
   font-size: medium;
 
+
 }
 .number{
-
     padding-left:0px;
     padding-right:100px;
-
 }
 .no-padding{
   padding: 0 0 0 0;
 }
 .button1{
   float:left;
-  background-color: cornflowerblue;
+
 }
 
 
@@ -147,18 +146,19 @@ a.panel-body.dropdown-toggle{
 }
 .dropdown-menu-right a {
     font-size: medium;
+    background-color: lightgrey;
 }
 .panel-collapse{
 background-color: #1d1d1d;
 }
 .border{
     border-top: 2px solid #111111;
-    background-color: darkgrey;
+
 }
 
 .padding-top-30{
     padding-top:80px;
-    background-color: darkgray;
+    margin-top: 10px;
     padding-left: 15px;
 }
 div .col-md-3{
@@ -170,10 +170,7 @@ div .col-md-3{
     font-size:large;
 }
 
-.pagenum{
-  background-color:lightgrey;
 
-}
 .green{
     color:green;
 }
@@ -212,11 +209,7 @@ a.navbar-brand{
 
 /*}*/
 
-.testmodule{
-    width:100%;
-    background-color: white;
 
-}
 .text{
     text-decoration-color: #f1f1f1;
 }
@@ -229,11 +222,11 @@ a.navbar-brand{
 p.renderQuestion{
     font-size:25px;
     font-weight: bold;
-    background-color: darkgrey;
+
 }
-p{
+.answerr p{
     font-size: smaller;
-    background-color: darkgrey;
+
     float-wrap: wrap;
 }
 .button .btn .btn-primary .prev{
@@ -281,8 +274,8 @@ button{
 
 }
 .btn.btn-success{
-    width:100px;
-    height:50px;
+    width:350px;
+    height:100px;
 }
 .footer{
     float: left;
@@ -295,46 +288,40 @@ button{
 
 
 
-.color{
-    padding: 0px 0px 0px 0px;
-}
+
 
 /*testmodule*/
 .here{
-    background-color:white;
-    margin-top: 61px;
+
+    margin-top: 60px;
     margin-left:2px;
 }
-.testhere{
-background-color: white;
-}
-.inner{
-    background-color: white;
-}
-.image{
-    background-color: white;
+
+
+.image {
     text-align: center;
-    margin-top: 57px;
+    margin-top: 50px;
 
 }
-.btn .btn-primary{
-    padding-left:20px;
-    width:50px;
-    text-align:right;
+.image p{
+
+    font-weight: bolder;
+
+
 }
+
 button{
     width:30%;
 }
-.grid-default{
-    height:100%;
-    background-color:white;
-}
+
 .btn {
 font-size: larger;
 }
 .btn.btn-success {
-    width: 150px;
-    height: 100px;
+    width: 350px;
+    height: 150px;
+    background-color: black;
+
 }
 
 .btn .btn-primary .jenita{
@@ -346,24 +333,14 @@ font-size: larger;
     width:auto;
 }
 
-.jenita{
-  background-color:darkgray;
 
-}
  div .jenita ul{
      padding-left:60px;
  }
-.testmodule{
-    background-color: white;
-    padding-left:0px;
-    padding-right:0px;
-
-}
 
 
-.grid default-grid{
-    background-color: white;
-}
+
+
 img{
     width:350px;
     height:200px;
@@ -371,14 +348,14 @@ img{
 
 .where{
     padding-top: 30px;
-    background-color: darkgray;
+
 
 }
     /*ExamDevops*/
 .bottom-header{
     padding-top: 100px;
     padding-left: 10px;
-    background-color: lightgrey;
+
 
 }
 .answer{
@@ -423,16 +400,7 @@ a.navbar-brand{
     color:black
 }
 
-div .SubmitValue{
-    background-color: white;
-}
-div.color{
-    background-color: white;
-}
-.bottom-header{
-    background-color:white;
 
-}
 /*login form*/
 :root{
     --primaryred:#ff424f;
@@ -490,7 +458,7 @@ img{
 .firstheadings h2{
     font-size:1.2rem;
     font-weight: 300;
-    color:yellow;
+    color:whitesmoke;
     font-weight: bold;
 
 }
@@ -509,6 +477,7 @@ img{
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
+
 .formbox form label{
     color: rgba(255, 255, 255, 0.8);
     display: inline-block;
@@ -580,13 +549,82 @@ a:hover{
 }
 /*testmodule*/
 .box{
-
+background-color: black;
     text-align: white;
     height:200px;
     width:350px;
-    margin-top:100px;
+    margin-left: 20px;
+    margin-right: 200px;
+    margin-top:80px;
     margin-bottom: 100px;
-    margin-left: 150px;
     width: 400px;
     height:250px;
+}
+.black{
+    background-image: url("aws2.png");
+    background-size: auto 150px;
+    background-repeat: no-repeat;
+    font-weight: bolder;
+    font-style: italic;
+    color:white;
+    background-color: black;
+    text-align: right;
+    text-decoration-color: whitesmoke;
+
+
+}
+.black:hover{
+    background-position: 0 0;
+    box-shadow: 5px 5px 10px ;
+    color: white;
+}
+.boxx{
+    background-image: url("exam2.png");
+    background-position:auto 150px;
+    background-repeat: no-repeat;
+    font-weight: bolder;
+    text-align: right;
+    margin-left: 20px;
+    margin-right: 200px;
+    margin-bottom: 43px;
+    height:180px;
+    width:350px;
+    background-color: black;
+    color:white;
+
+}
+.boxx:hover{
+    background-position: 0 0;
+    color: white;
+    background-color: black;
+    box-shadow: 0px 8px 15px #333333;
+}
+
+
+.that{
+    min-height: 40rem;
+
+    width:100%;
+
+    background-color: darkgrey;
+
+}
+.heading-text{
+    margin-top: 58px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #666666;
+    padding-bottom: 10px;
+    color: white;
+
+}
+/*exammode*/
+.heading-test{
+    margin-top: 58px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #666666;
+    padding-bottom: 10px;
+    color: white;
+
 }

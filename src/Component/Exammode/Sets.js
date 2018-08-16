@@ -8,16 +8,12 @@ export default class Sets extends Component{
         return(
                <div className="here">
                    <section className="grid default-grid ">
-                       <div className="container">
+                       <div className="container ">
                            <div className="row sample-row">
                                <div className="col-xs-6 col-sm-4 gutter-margin-xs-md">
                                    <div className="inner"><a href="#Exammode/Set1">
-
-
-                                       <button type="button" className="btn btn-success">Set1</button></a>
-
+                                       <button type="button"className="btn btn-success">Set1</button></a>
                                    </div>
-
                                </div>
                                <br/>
                                <br/>

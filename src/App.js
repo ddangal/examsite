@@ -50,8 +50,8 @@ class App extends Component {
 
                         {/*TestMode/Modules/*/}
                         <Route exact path="/testmode/DevOps" component={Testmodule}/>
-                        <Route exact path="/testmode/SysOps" component={TestmoduleSolArch}/>
-                        <Route exact path="/testmode/SolArch" component={TestmoduleSysOps}/>
+                        <Route exact path="/testmode/SolArch" component={TestmoduleSolArch}/>
+                        <Route exact path="/testmode/SysOps" component={TestmoduleSysOps}/>
 
                         {/*Testmode/Questions/*/}
                         <Route exact path="/testmode/Dynamo" component={TestDevOpsDynamo}/>

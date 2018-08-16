@@ -452,7 +452,7 @@ export default class Test extends Component {
             }
 
 
-            return <div>
+            return <div className="answerr">
 
                 <p className={(correct)?'greenColor':(user_ans_correct)?'redColor':'ansColor'}  key={index}>
                     <input

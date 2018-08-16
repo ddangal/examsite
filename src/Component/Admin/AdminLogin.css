@@ -34,7 +34,7 @@ html{
     float:right;
 }
 .margin-top{
-    margin-top: 200px;
+    margin-top: 150px;
 }
 .usertable{
     margin-left:90px;
@@ -46,7 +46,7 @@ border-color: green;
 .text{
     font-weight:bolder;
     background-color: black;
-   color: white;
+   color: black;
 }
 .filter button{
   text-align: green;
@@ -54,7 +54,7 @@ border-color: green;
 }
 
 .userinfo{
-    padding-right:100px;
+    padding-right:50px;
 padding-left:50px;
 }
 .edit{
@@ -87,4 +87,21 @@ padding-left:50px;
 }
 h2{
     font-weight:bolder;
+}
+.listofuser{
+    padding-top: 150px;
+    padding-left: 90px;
+}
+.inactive{
+    float:right;
+    width:350px;
+}
+.black{
+    width:350px;
+    height:150px;
+    background-color: black;
+
+}
+ button.btn.btn-default.black{
+    background-color: black;
 }
